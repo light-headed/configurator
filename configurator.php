@@ -11,8 +11,9 @@ $modx = new modX();
 $modx->initialize("web");
 $modx->getService("error", "error.modError", "", "");
 
+$configurator='<h1>vxccvbcvbcvbcvbc</h1>';
 
-$data["defaultFixture"] = $defaultFixture ?? "";
+$data["configurator"] = $configurator ?? "";
 
 $output = [$data];
 echo json_encode($output);
