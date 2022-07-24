@@ -14,6 +14,7 @@ $modx->getService("error", "error.modError", "", "");
 $configurator='<h1>vxccvbcvbcvbcvbc</h1>';
 
 $data["configurator"] = $configurator ?? "";
+$data["colorConfigurator"] = $configurator ?? "";
 
 $output = [$data];
 echo json_encode($output);
